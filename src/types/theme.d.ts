@@ -12,11 +12,11 @@ declare module 'styled-components' {
       alert: string
       alertColor: string
       alertHover: string
-      desabled: string
+      disabled: string
       disabledColor: string
       primary: string
       primaryColor: string
-      primiryHover: string
+      primaryHover: string
     }
     card: {
       alert: string

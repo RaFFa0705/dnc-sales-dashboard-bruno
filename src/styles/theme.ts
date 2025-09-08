@@ -1,7 +1,5 @@
-import type { DefaultTheme } from 'styled-components'
-
-export const lighTheme: DefaultTheme = {
-  appBackground: '#FFF',
+export const lightTheme = {
+  appBackground: '#fff',
   appColor: '#000',
   appDefaultStroker: '#E0E0E0',
   appLogo: 'logo-dnc-dark.svg',
@@ -11,11 +9,11 @@ export const lighTheme: DefaultTheme = {
     alert: '#E80000',
     alertColor: '#FFF',
     alertHover: '#D80000',
-    desabled: '#ccc',
+    disabled: '#ccc',
     disabledColor: '#666',
     primary: '#0c70f2',
     primaryColor: '#FFF',
-    primiryHover: '#0061DE',
+    primaryHover: '#0061DE',
   },
   card: {
     alert: '#E80000',
@@ -40,7 +38,7 @@ export const lighTheme: DefaultTheme = {
   },
 }
 
-export const darkTheme: DefaultTheme = {
+export const darkTheme = {
   appBackground: '#060B26',
   appColor: '#FFF',
   appDefaultStroker: '#21497D',
@@ -51,11 +49,11 @@ export const darkTheme: DefaultTheme = {
     alert: '#E80000',
     alertColor: '#FFF',
     alertHover: '#D80000',
-    desabled: '#313649',
+    disabled: '#313649',
     disabledColor: '#6D7B8E',
     primary: '#0c70f2',
     primaryColor: '#FFF',
-    primiryHover: '#0061DE',
+    primaryHover: '#0061DE',
   },
   card: {
     alert: '#E80000',

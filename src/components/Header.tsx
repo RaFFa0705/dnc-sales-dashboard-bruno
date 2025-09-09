@@ -7,7 +7,7 @@ import { pxToRem } from '@/utils'
 const StyledHeader = styled.header`
   background-image: ${(props) => props.theme.appBackground};
   border-botton: ${pxToRem(1)} solid ${(props) => props.theme.appDefaultStroker};
-  margin-botton: ${pxToRem(37)}
+  margin-botton: ${pxToRem(37)};
   width: 100%;
 `
 function Header() {
